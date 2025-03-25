@@ -51,6 +51,8 @@ android {
         minSdkVersion 21
     }
 
+    namespace "com.jhomlala.better_player"
+
     dependencies {
         implementation "com.google.android.exoplayer:exoplayer-core:$exoPlayerVersion"
         implementation "com.google.android.exoplayer:exoplayer-hls:$exoPlayerVersion"
